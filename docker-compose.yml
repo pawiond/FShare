@@ -5,3 +5,16 @@ services:
   worker:
 
     build: .
+      environment:
+        TG_BOT_TOKEN: $TG_BOT_TOKEN
+        APP_ID: $APP_ID
+        API_HASH: $API_HASH
+        CHANNEL_ID: $CHANNEL_ID
+        OWNER_ID: $OWNER_ID
+        DB_URI: $DB_URI
+        
+        
+
+
+    
+    
