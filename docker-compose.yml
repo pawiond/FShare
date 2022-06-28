@@ -18,7 +18,7 @@ services:
       
       - DB_URI=${DB_URI}
       
-      - DB_URI=${DB_URI}
+      - TG_BOT_TOKEN=${TG_BOT_TOKEN}
       
       
 
